@@ -1,0 +1,6 @@
+<div>
+  <app-comentarios (comentarioEnviado)="agregarLista($event)"></app-comentarios>
+  <ul>
+    <li *ngFor="let comentarios of listaComentario">{{ comentarios }}</li>
+  </ul>
+</div>

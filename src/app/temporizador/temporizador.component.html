@@ -1,0 +1,6 @@
+<p>temporizador works!</p>
+
+<input [(ngModel)]="tiempo" type="number" placeholder="ingrese un tiempo" />
+<button (click)="iniciarTemporizador()" >iniciar el temporizador</button>
+<button (click)="detenerTiempo()">detener el temporizador</button>
+<p>tiempo: {{tiempo_restante}}</p>

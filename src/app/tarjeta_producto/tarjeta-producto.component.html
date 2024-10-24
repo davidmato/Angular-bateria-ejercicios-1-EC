@@ -1,0 +1,13 @@
+<p>tarjeta-producto works!</p>
+<ul style="list-style: none" >
+  <li>Nombre: <input [(ngModel)]="nombre"></li>
+  <li style="margin-top: 1%">Descripcion: <input [(ngModel)]="descripcion"></li>
+  <li style="margin-top: 1%">Precio: <input [(ngModel)]="precio"></li>
+</ul>
+
+
+<div class="producto">
+  <h2>{{nombre}}</h2>
+  <p>{{descripcion}}</p>
+  <p class="precio">{{precio | currency}}</p>
+</div>

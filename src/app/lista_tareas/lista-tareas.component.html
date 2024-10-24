@@ -1,0 +1,10 @@
+<p>lista-tareas works!</p>
+
+<div>
+  <input [(ngModel)]="nuevaTarea" placeholder="agregue una tarea ">
+  <button (click)="agregarTarea()">agregar nueva tarea</button>
+</div>
+  <ul>
+    <li style="list-style: none" *ngFor="let tarea of listaTareas">{{tarea}}</li>
+  </ul>
+
