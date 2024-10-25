@@ -1,0 +1,37 @@
+
+.padre-comnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+
+.padre-comnt button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.padre-comnt button:hover {
+  background-color: #0056b3;
+}
+
+.padre-comnt p {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.padre-comnt li{
+  list-style: none;
+}
